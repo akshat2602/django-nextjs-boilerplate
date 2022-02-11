@@ -45,7 +45,6 @@ services:
     image: postgres
     env_file:
       - .env.dev
-    
 
 volumes:
   run_vol:
