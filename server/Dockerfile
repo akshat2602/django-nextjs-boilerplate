@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 # Create app directory
 WORKDIR /src
 COPY requirements.txt ./
-RUN pip install -r requirements.txt 
+RUN pip install --no-cache-dir -r requirements.txt 
 
 # ---- Copy Files/Build ----
 FROM base
