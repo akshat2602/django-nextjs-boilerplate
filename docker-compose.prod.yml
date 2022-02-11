@@ -17,22 +17,36 @@ services:
       - tmp_vol:/tmp
     env_file:
       - .env.dev
+    environment:
+      - DJANGO_DEBUG=False
+      - GUNICORN_WORKERS=5
     command: >
-      sh -c "python manage.py makemigrations && 
-              python manage.py migrate &&
-              python manage.py shell < tools/create_superuser.py &&
-              python manage.py runserver 0.0.0.0:8000"
+      sh -c "sh migrations.sh && gunicorn -w 5 --reload -b 0.0.0.0:8000 --log-level info server.wsgi"
     depends_on:
+      - db
+
+  client:
+    container_name: client
+    build: ./client
+    stdin_open: true
+    tty: true
+    working_dir: /src
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/src
+    command: >
+      sh -c "npm install -g npm@latest && npm install && npm run build && npm run start"
+    depends_on:
+      - server
       - db
 
   db:
     container_name: db
     image: postgres
-    environment:
-      - POSTGRES_DB=db
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
-
+    env_file:
+      - .env.dev
+    
 
 volumes:
   run_vol:
