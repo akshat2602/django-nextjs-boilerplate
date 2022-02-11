@@ -1,5 +1,5 @@
 
-# Django-Nextjs-Boilerplate!
+# Django-Next.js-Boilerplate!
 
 This is a basic boilerplate starter for a fullstack web project with Django as the server, PostgreSQL as the database and Next.js as the frontend.
 
