@@ -1,6 +1,10 @@
 
 # Django-Next-Template!
+
 This is a basic starter template for a fullstack web project with Django as the server, PostgreSQL as the database and Next.js as the frontend. 
+
+<a href="https://github.com/akshat2602/django-nextjs-template/blob/master/LICENSE" target="_blank"> <img src="https://img.shields.io/github/license/akshat2602/django-nextjs-template?color=green&style=for-the-badge" /> </a>
+<a href="https://github.com/akshat2602/django-nextjs-template/blob/master/LICENSE" target="_blank"> <img src="https://img.shields.io/github/stars/akshat2602/django-nextjs-template?color=green&style=for-the-badge" /> </a>
 
 ## About the template 
 -   PostgreSQL used as the primary database.
