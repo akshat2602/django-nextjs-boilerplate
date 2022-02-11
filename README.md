@@ -12,12 +12,13 @@ This is a basic starter template for a fullstack web project with Django as the 
 ## About the template 
 -   PostgreSQL used as the primary database.
 -   Superuser is already initialized with the credentials: Username- `admin`, Email- `admin@admin.com`, Password- `admin`
--    Integration with Django Rest Framework
+-   Integration with Django Rest Framework
 -   Integrated Djoser for user register/login/logout workflows.
 -   Used JWT for Authentication.
 -   API Documentation is configured using swagger.
 -   Containerized using Docker and managed using docker-compose.
 -   A typescripted Next.js client has been preinstalled and integrated with docker-compose.
+-   Added Chakra UI and Chakra icons in the frontend as a design and component library alongwith axios for making api calls.
 
 ## Getting Started
 To get a local copy of this template up and running on your machine, follow these simple steps.
