@@ -28,8 +28,8 @@ To get a local copy of this template up and running on your machine, follow thes
 `sudo sh get-docker.sh`
 
 ### Installation
-- Clone the repo `git clone https://github.com/akshat2602/django-nextjs-template.git`
-- Change the current directory to the template `cd django-nextjs-template`
+- Clone the repo `git clone https://github.com/akshat2602/django-nextjs-boilerplate.git`
+- Change the current directory to the template `cd django-nextjs-boilerplate`
 - Build the docker containers`docker-compose -f docker-compose.dev.yml build` for the dev containers and `docker-compose -f docker-compose.prod.yml build` for the prod containers
 - Run the docker containers`docker-compose -f docker-compose.dev.yml up` for the dev containers and `docker-compose -f docker-compose.prod.yml up` for the prod containers
 
@@ -45,7 +45,7 @@ API documentation is done using swagger. Visit `/swagger` for API documentation.
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/></a>
 
 ## Roadmap
-See the [open issues](https://github.com/akshat2602/django-nextjs-template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/akshat2602/django-nextjs-boilerplate/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -62,5 +62,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Akshat Sharma - [akshatsharma2602@gmail.com](mailto:akshatsharma2602@gmail.com)
-Project Link: [https://github.com/akshat2602/django-nextjs-template](https://github.com/akshat2602/django-nextjs-template)
+Project Link: [https://github.com/akshat2602/django-nextjs-boilerplate](https://github.com/akshat2602/django-nextjs-boilerplate)
 
