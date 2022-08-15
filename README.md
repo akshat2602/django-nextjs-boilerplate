@@ -44,8 +44,6 @@ API documentation is done using swagger. Visit `/swagger` for API documentation.
 <a href="https://www.nextjs.org/" target="_blank"> <img src="https://img.shields.io/badge/Next.JS-000000?style=for-the-badge&logo=next.js&logoColor=white"/> </a>
 <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/></a>
 
-## Roadmap
-See the [open issues](https://github.com/akshat2602/django-nextjs-boilerplate/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
