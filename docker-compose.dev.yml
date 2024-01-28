@@ -2,6 +2,7 @@ version: "3"
 
 services:
   server:
+    platform: linux/x86_64
     container_name: server
     build:
       context: ./server
